@@ -9,7 +9,7 @@
     {
       "name": "boca-claude-kmp",
       "source": "./",
-      "description": "Production-ready Claude Code setup for KMP ERP development with 20 specialized commands and 9 AI agents for mobile, backend, and security",
+      "description": "Production-ready Claude Code setup for KMP ERP development with 25 specialized commands and 9 AI agents for mobile, backend, and security",
       "version": "1.0.0",
       "author": {
         "name": "Ianboc17"
