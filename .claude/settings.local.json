@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(git -C \"X:/GIT/boca-claude-kmp\" log --oneline -n 10)",
+      "Bash(git -C \"X:/GIT/boca-claude-kmp\" log --stat --oneline -n 3)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

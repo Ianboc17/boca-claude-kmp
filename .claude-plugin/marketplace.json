@@ -5,6 +5,7 @@
     "contact": "https://github.com/Ianboc17"
   },
   "description": "Specialized Claude Code plugin for Kotlin Multiplatform ERP development",
+  "repository": "https://github.com/Ianboc17/boca-claude-kmp",
   "plugins": [
     {
       "name": "boca-claude-kmp",
@@ -14,6 +15,9 @@
       "author": {
         "name": "Ianboc17"
       },
+      "repository": "https://github.com/Ianboc17/boca-claude-kmp",
+      "homepage": "https://github.com/Ianboc17/boca-claude-kmp#readme",
+      "license": "MIT",
       "tags": [
         "kotlin",
         "multiplatform",
