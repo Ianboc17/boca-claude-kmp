@@ -2,10 +2,9 @@
   "name": "boca-claude-kmp",
   "version": "1.0.0",
   "description": "Specialized Claude Code plugin for Kotlin Multiplatform ERP development with 25 production commands and 9 agents",
-  "author": "Ianboc17",
-  "license": "MIT",
-  "repository": "https://github.com/Ianboc17/boca-claude-kmp",
-  "keywords": ["kotlin", "multiplatform", "kmp", "erp", "android", "ios", "mobile", "backend", "api", "security"],
+  "author": {
+    "name": "Ianboc17"
+  },
   "commands": [
     {
       "name": "api-scaffold",
@@ -184,21 +183,5 @@
       "path": ".claude/agents/technical-writer.md",
       "description": "Create clear technical documentation"
     }
-  ],
-  "tags": [
-    "kotlin",
-    "multiplatform",
-    "kmp",
-    "erp",
-    "android",
-    "ios",
-    "mobile",
-    "backend",
-    "api",
-    "security",
-    "database",
-    "testing",
-    "supabase",
-    "workflows"
   ]
 }
