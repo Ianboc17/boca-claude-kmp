@@ -1,0 +1,33 @@
+{
+  "name": "boca-claude-kmp",
+  "owner": {
+    "name": "Ianboc17",
+    "contact": "https://github.com/Ianboc17"
+  },
+  "description": "Specialized Claude Code plugin for Kotlin Multiplatform ERP development",
+  "plugins": [
+    {
+      "name": "boca-claude-kmp",
+      "source": "./",
+      "description": "Production-ready Claude Code setup for KMP ERP development with 20 specialized commands and 9 AI agents for mobile, backend, and security",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ianboc17"
+      },
+      "tags": [
+        "kotlin",
+        "multiplatform",
+        "kmp",
+        "erp",
+        "android",
+        "ios",
+        "mobile",
+        "backend",
+        "api",
+        "security",
+        "database",
+        "testing"
+      ]
+    }
+  ]
+}

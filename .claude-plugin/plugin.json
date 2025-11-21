@@ -1,0 +1,204 @@
+{
+  "name": "boca-claude-kmp",
+  "version": "1.0.0",
+  "description": "Specialized Claude Code plugin for Kotlin Multiplatform ERP development with 25 production commands and 9 agents",
+  "author": "Ianboc17",
+  "license": "MIT",
+  "repository": "https://github.com/Ianboc17/boca-claude-kmp",
+  "keywords": ["kotlin", "multiplatform", "kmp", "erp", "android", "ios", "mobile", "backend", "api", "security"],
+  "commands": [
+    {
+      "name": "api-scaffold",
+      "path": ".claude/commands/api/api-scaffold.md",
+      "description": "Create REST API endpoints with validation and error handling"
+    },
+    {
+      "name": "api-mock",
+      "path": ".claude/commands/api/api-mock.md",
+      "description": "Generate mock APIs for testing and development"
+    },
+    {
+      "name": "db-migrate",
+      "path": ".claude/commands/misc/db-migrate.md",
+      "description": "Create and manage database migrations with zero-downtime strategies"
+    },
+    {
+      "name": "data-pipeline",
+      "path": ".claude/commands/misc/data-pipeline.md",
+      "description": "Design ETL/ELT pipelines for data import and processing"
+    },
+    {
+      "name": "test-harness",
+      "path": ".claude/commands/misc/test-harness.md",
+      "description": "Generate comprehensive test suites (unit, integration, e2e)"
+    },
+    {
+      "name": "tdd-red",
+      "path": ".claude/commands/misc/tdd-red.md",
+      "description": "Create failing tests for test-driven development"
+    },
+    {
+      "name": "tdd-green",
+      "path": ".claude/commands/misc/tdd-green.md",
+      "description": "Implement minimal code to pass tests"
+    },
+    {
+      "name": "tdd-refactor",
+      "path": ".claude/commands/misc/tdd-refactor.md",
+      "description": "Refactor code while maintaining passing tests"
+    },
+    {
+      "name": "deps-audit",
+      "path": ".claude/commands/misc/deps-audit.md",
+      "description": "Audit dependencies for security vulnerabilities"
+    },
+    {
+      "name": "deps-upgrade",
+      "path": ".claude/commands/misc/deps-upgrade.md",
+      "description": "Upgrade and update dependency versions"
+    },
+    {
+      "name": "config-validate",
+      "path": ".claude/commands/misc/config-validate.md",
+      "description": "Validate configuration and environment variables"
+    },
+    {
+      "name": "error-trace",
+      "path": ".claude/commands/misc/error-trace.md",
+      "description": "Debug production errors with detailed analysis"
+    },
+    {
+      "name": "code-migrate",
+      "path": ".claude/commands/misc/code-migrate.md",
+      "description": "Migrate code between versions and platforms"
+    },
+    {
+      "name": "doc-generate",
+      "path": ".claude/commands/misc/doc-generate.md",
+      "description": "Generate API and code documentation"
+    },
+    {
+      "name": "tech-debt",
+      "path": ".claude/commands/misc/tech-debt.md",
+      "description": "Analyze technical debt and prioritize refactoring"
+    },
+    {
+      "name": "accessibility-audit",
+      "path": ".claude/commands/misc/accessibility-audit.md",
+      "description": "Audit accessibility compliance (WCAG, mobile accessibility)"
+    },
+    {
+      "name": "security-scan",
+      "path": ".claude/commands/security/security-scan.md",
+      "description": "Perform OWASP vulnerability assessment"
+    },
+    {
+      "name": "compliance-check",
+      "path": ".claude/commands/security/compliance-check.md",
+      "description": "Check regulatory compliance (GDPR, HIPAA, etc.)"
+    },
+    {
+      "name": "code-explain",
+      "path": ".claude/commands/ui/code-explain.md",
+      "description": "Generate detailed code explanations"
+    },
+    {
+      "name": "refactor-clean",
+      "path": ".claude/commands/ui/refactor-clean.md",
+      "description": "Clean up and refactor code for better quality"
+    },
+    {
+      "name": "edge-function-new",
+      "path": ".claude/commands/supabase/edge-function-new.md",
+      "description": "Create new Supabase Edge Functions (Deno backend)"
+    },
+    {
+      "name": "types-gen",
+      "path": ".claude/commands/supabase/types-gen.md",
+      "description": "Generate TypeScript types from Supabase schema"
+    },
+    {
+      "name": "feature-development",
+      "path": ".claude/commands/workflows/feature-development.md",
+      "description": "End-to-end feature implementation workflow"
+    },
+    {
+      "name": "security-hardening",
+      "path": ".claude/commands/workflows/security-hardening.md",
+      "description": "Security-first development workflow"
+    },
+    {
+      "name": "performance-optimization",
+      "path": ".claude/commands/workflows/performance-optimization.md",
+      "description": "System-wide performance optimization"
+    },
+    {
+      "name": "full-review",
+      "path": ".claude/commands/workflows/full-review.md",
+      "description": "Multi-perspective code review"
+    }
+  ],
+  "agents": [
+    {
+      "name": "system-architect",
+      "path": ".claude/agents/system-architect.md",
+      "description": "Design scalable KMP system architecture"
+    },
+    {
+      "name": "backend-architect",
+      "path": ".claude/agents/backend-architect.md",
+      "description": "Design reliable backend systems with data integrity and security"
+    },
+    {
+      "name": "frontend-architect",
+      "path": ".claude/agents/frontend-architect.md",
+      "description": "Create accessible mobile UIs with Compose and SwiftUI"
+    },
+    {
+      "name": "security-engineer",
+      "path": ".claude/agents/security-engineer.md",
+      "description": "Identify vulnerabilities and ensure security standards"
+    },
+    {
+      "name": "performance-engineer",
+      "path": ".claude/agents/performance-engineer.md",
+      "description": "Optimize performance through measurement-driven analysis"
+    },
+    {
+      "name": "refactoring-expert",
+      "path": ".claude/agents/refactoring-expert.md",
+      "description": "Improve code quality and reduce technical debt"
+    },
+    {
+      "name": "requirements-analyst",
+      "path": ".claude/agents/requirements-analyst.md",
+      "description": "Transform ideas into concrete specifications"
+    },
+    {
+      "name": "deep-research-agent",
+      "path": ".claude/agents/deep-research-agent.md",
+      "description": "Comprehensive research with adaptive strategies"
+    },
+    {
+      "name": "technical-writer",
+      "path": ".claude/agents/technical-writer.md",
+      "description": "Create clear technical documentation"
+    }
+  ],
+  "tags": [
+    "kotlin",
+    "multiplatform",
+    "kmp",
+    "erp",
+    "android",
+    "ios",
+    "mobile",
+    "backend",
+    "api",
+    "security",
+    "database",
+    "testing",
+    "supabase",
+    "workflows"
+  ]
+}
